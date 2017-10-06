@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-        int n, m, ;
+        int n, m;
         cout << "Vvedite razmer massivov" << endl;
         cin >> n >> m;
         int a[n][m], b[n][m], c[n][m];
