@@ -7,7 +7,7 @@ int main(){
         cin >> n >> m;
         cout << "Vvedite stolbcy vtorogo massiva" << endl;
         cin >> k;
-        int a[n][m], b[n][m], c[n][m];
+        int a[n][m], b[m][k], c[n][k];
         for (int i = 0; i < n; i++){
                 for (int j = 0; j < m; j++){
                         cin >> a[i][j];
@@ -28,7 +28,7 @@ cout << endl;
 
         for (int i = 0; i < n; i++){
           for (int j = 0; j < k; j++){
-                        for (int r = 0; r<m; r++){
+                        for (int r = 0; r < m; r++){
                                 c[i][j] = c[i][j] + a[i][r] *  b[r][j];
 
                         }
